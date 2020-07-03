@@ -1,0 +1,52 @@
+# Settings file in YAML
+#
+# ------------  Node identity ------------
+#
+# node.name: test
+#
+# ------------ Data path ------------------
+
+path.data: /var/lib/logstash
+#
+# ------------ Pipeline Settings --------------
+#
+# ------------ Pipeline Configuration Settings --------------
+#
+# ------------ Module Settings ---------------
+#
+# ------------ Cloud Settings ---------------
+#
+# ------------ Queuing Settings --------------
+#
+queue.type: persisted
+#
+path.queue: /hdd/queue
+#
+queue.max_bytes: 128mb
+# 
+#
+# ------------ Dead-Letter Queue Settings --------------
+# 
+# ------------ Metrics Settings --------------
+#
+# ------------ Debugging Settings --------------
+#
+# Options for log.level:
+#   * fatal
+#   * error
+#   * warn
+#   * info (default)
+#   * debug
+#   * trace
+#
+# log.level: info
+path.logs: /var/log/logstash
+#
+# ------------ Other Settings --------------
+#
+# Where to find custom plugins
+# path.plugins: []
+#
+# ------------ X-Pack Settings (not applicable for OSS build)--------------
+#
+
